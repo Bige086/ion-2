@@ -892,16 +892,24 @@ void BitcoinGUI::setNumConnections(int count)
     case 1:
     case 2:
     case 3:
-        icon = ":/icons/connect_1";
-        break;
     case 4:
     case 5:
     case 6:
-        icon = ":/icons/connect_2";
+        icon = ":/icons/connect_1";
         break;
     case 7:
     case 8:
     case 9:
+    case 10:
+    case 11:
+    case 12:
+        icon = ":/icons/connect_2";
+        break;
+    case 13:
+    case 14:
+    case 15:
+    case 16:
+    case 17:
         icon = ":/icons/connect_3";
         break;
     default:
